@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 from src.exception import CustomExeption
 import dill
-os.environ['NUMEXPR_MAX_THREADS'] = '4'
-os.environ['NUMEXPR_NUM_THREADS'] = '2'
-import numexpr as ne
+#os.environ['NUMEXPR_MAX_THREADS'] = '4'
+#os.environ['NUMEXPR_NUM_THREADS'] = '2'
+#import numexpr as ne
 from sklearn.metrics import r2_score
 
 def save_object(file_path,obj):
